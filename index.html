@@ -310,8 +310,6 @@
     color: var(--warm-gray); font-size: 10px; letter-spacing: 0.1em;
   }
 
-  input[type="file"] { display: none; }
-
   .fade-in { opacity: 0; transform: translateY(16px); animation: fadeUp 0.8s ease forwards; }
   .fade-in:nth-child(2) { animation-delay: 0.1s; }
   .fade-in:nth-child(3) { animation-delay: 0.2s; }
@@ -412,16 +410,16 @@
 
 <script>
 const MODULES = [
-  { mod: "Module 1",   title: "Digital Visual World Collage",    desc: "10-slot photo collage",        photo: "photos/module1.png" },
-  { mod: "Module 2",   title: "Observational Drawing",            desc: "7 Elements of Art",            photo: "photos/module2.jpg" },
-  { mod: "Module 3",   title: "Abstract Composition",             desc: "Non-representational artwork", photo: "photos/module3.png" },
-  { mod: "Module 4",   title: "Transformation Series",            desc: "3 versions — before to after", photo: "photos/module4.png" },
-  { mod: "Module 5",   title: "Filipino-Inspired Pattern Design", desc: "Cultural pattern exploration", photo: "photos/module5.png" },
-  { mod: "Module 6–7", title: "Drawing or Painting Artwork",      desc: "Traditional & digital media",  photo: "photos/module6.jpg" },
-  { mod: "Module 8",   title: "Digital Poster",                   desc: "Graphic design composition",   photo: "photos/module8.png" },
-  { mod: "Module 9",   title: "Photo Narrative Series",           desc: "3-photo visual story",         photo: "photos/module9.jpg" },
-  { mod: "Module 10",  title: "Infographic (IT Topic)",           desc: "Data & information design",    photo: "photos/module10.jpg" },
-  { mod: "Module 11",  title: "Meme Series Creation",             desc: "Digital humor & commentary",   photo: "photos/module11.png" },
+  { mod: "Module 1",   title: "Digital Visual World Collage",    desc: "10-slot photo collage",        photo: "module 1.png" },
+  { mod: "Module 2",   title: "Observational Drawing",            desc: "7 Elements of Art",            photo: "module 2.jpg" },
+  { mod: "Module 3",   title: "Abstract Composition",             desc: "Non-representational artwork", photo: "module 3.png" },
+  { mod: "Module 4",   title: "Transformation Series",            desc: "3 versions — before to after", photo: "module 4.png" },
+  { mod: "Module 5",   title: "Filipino-Inspired Pattern Design", desc: "Cultural pattern exploration", photo: "module 5.png" },
+  { mod: "Module 6–7", title: "Drawing or Painting Artwork",      desc: "Traditional & digital media",  photo: "module 6.jpg" },
+  { mod: "Module 8",   title: "Digital Poster",                   desc: "Graphic design composition",   photo: "module 8.png" },
+  { mod: "Module 9",   title: "Photo Narrative Series",           desc: "3-photo visual story",         photo: "module 9.jpg" },
+  { mod: "Module 10",  title: "Infographic (IT Topic)",           desc: "Data & information design",    photo: "module 10.jpg" },
+  { mod: "Module 11",  title: "Meme Series Creation",             desc: "Digital humor & commentary",   photo: "module 11.png" },
 ];
 
 const tocItems = [
